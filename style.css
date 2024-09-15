@@ -1,0 +1,46 @@
+/* Estilos gerais */
+body {
+    background-size:auto;
+    background-position: auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.app-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.note {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Estilo para a tela de exibição de música */
+.music-display {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.music-name {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff5733;
+    padding: 10px;
+    margin: 0;
+}
+
+/* Estilos adicionais */
+.container {
+    margin-top: 50px;
+}
