@@ -1,14 +1,16 @@
 /* Estilos gerais */
 body {
-    background-size:auto;
+    background-image: url("brook-one-piece-378.jpg");
+    background-size: cover;
     background-position: auto;
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
 }
+
 
 /* Estilo para o cabeçalho */
 header {
-    background-color: rgba(255, 255, 255, 0.8);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -26,10 +28,11 @@ header {
 
 /* Estilo para a tela de exibição de música */
 .music-display {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
 }
 
 .music-name {
@@ -38,6 +41,7 @@ header {
     color: #ff5733;
     padding: 10px;
     margin: 0;
+    border-bottom: 2px solid #ff5733;
 }
 
 /* Estilos adicionais */
